@@ -14,6 +14,6 @@ int main(void){
     loan_amount = loan_amount + (interest_rate/100.0)/12.0*loan_amount - monthly_payment;
     printf("Balance remaining after second payment: %.2f\n", loan_amount + loan_amount*(interest_rate/100.0)/12.0 - monthly_payment);
     loan_amount = loan_amount + loan_amount*(interest_rate/100.0)/12.0 - monthly_payment;
-    printf("Balance remaing after third payment: %.2f\n",loan_amount + (interest_rate/100.0)/12.0*loan_amount - monthly_payment);
+    printf("Balance remaing after third payment: %.2f\n", loan_amount + (interest_rate/100.0)/12.0*loan_amount - monthly_payment);
     return 0;
 }
